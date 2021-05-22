@@ -1,0 +1,84 @@
+body {
+    background: url(fon.jpg) no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.header {
+height: 200px;
+width: 100%;
+text-align: center;
+font-style: italic;
+}
+
+.pizza_name {
+margin: 0;
+font-family: 'Courier New', Courier, monospace;
+font-size: 200px;
+
+}
+
+
+.sidebar {
+
+position: relative;
+
+height: 600px;
+width: 20%;
+margin: 50px;
+font-style:italic ;
+
+
+}
+ a {
+    text-decoration: none;
+    font-family: cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    color: rgb(77, 47, 18);
+ }
+
+
+  
+   
+  
+.content {
+
+position: relative;
+height: 600px;
+width: 800px;
+margin: 0;
+display: flex;
+
+
+
+}
+img {
+    height: 500px;
+    width: 700px;
+    position: relative;
+ left: 150px;
+
+}
+
+ .z_pizza{
+width: 400px;
+height: 900px;
+font-size: 17px;
+position: relative;
+left: 400px;
+font-style: italic;
+
+ }
+.footer {
+position: absolute;
+top: 950px;
+height: 100px;
+width: 100%;
+margin: 0;
+text-align: center;
+}
